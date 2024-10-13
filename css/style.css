@@ -1,0 +1,69 @@
+body{
+    font-family: 'Baloo 2', cursive;
+}
+#header_top_section{
+    background-image:url('../images/burger.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.zomato{
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 80px;
+}
+h2.zomato.mx-2.my-2{
+    font-size: 40px;
+}
+
+#order_online{
+    background-image: url('../images/pizza.jpg');
+}
+#dinner{
+    background-image: url('../images/dinner.jpg');
+}
+#night_club{
+    background-image: url('../images/night-club.jpg');
+}
+
+.img-back-size{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.text-center.rounded-4.img-back-size.d-flex.flex-column.justify-content-end:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 500ms ease 0s;
+}
+
+#restaurant{
+    background-image: url('../images/restaurant.jpg');
+}
+#insta-worthy{
+    background-image: url('../images/insta-worthy.jpg');
+}
+#bar{
+    background-image: url('../images/bar.jpg');
+}
+#rooftop{
+    background-image: url('../images/rooftop.jpg');
+}
+
+.img-collection-back-size{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.img-app-size{
+    height: 40px;
+}
+.img-fluid-height{
+    height: 400px;
+}
+.location-height{
+    height: 50px;
+}
+
